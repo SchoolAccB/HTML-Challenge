@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+@media all and (max-width: 550px) {
+    .wrapper {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    img#logo {
+        filter: invert(100%);
+        margin: auto;
+        width: 100%;
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+        background-color: black;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+}
